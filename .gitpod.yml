@@ -1,6 +1,6 @@
 ports: 
   - port: 3000-8999
-    onOpen: ignore
+    onOpen: open-browser
 tasks:
   - init: npm install
     command: npm run dev
